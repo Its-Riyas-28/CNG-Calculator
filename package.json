@@ -3,9 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://github.com/Its-Riyas-28/CNG-Calculator",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy":"vite build", 
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
   },
