@@ -6,7 +6,7 @@
     <title>CNG Calculator</title>
     <link rel="stylesheet" href="./Assests/css/main.css" />
   </head>
-  <body class="bg-gradient-to-b from-sblue via-slate-900 to-black min-h-screen">
+  <body class="bg-gradient-to-b from-sblue via-slate-900 to-black h-[668px]">
     <div
       class="bg-Sred max-w-3xl mx-auto mt-10 p-[30px] rounded-lg shadow-black shadow-lg"
     >
@@ -28,10 +28,37 @@
           alt="Placeholder image"
         />
 
-        <div class="pl-10 mt-10 relative">
-          <label for="tr" class="flex pl-[100px] text-white font-semibold"> Trip Distance</label>
-          <input id="tr" text="number" class=""/>
-        </div>
+        <form class="pl-10 mt-10 space-y-9 justify-center">
+          
+          <label for="tr" class="relative">
+            <input id="tr" text="number" class="form-input" required/>
+
+            <span class="span-box">Trip Distance</span>
+          </label>
+
+          <div class="">
+            <label for="tr" class="relative">
+              <input id="tr" text="number" class="form-input" required />
+
+              <span class="span-box">Fuel Efficiency</span>
+            </label>
+          </div>
+
+          <div class="">
+            <label for="tr" class="relative">
+              <input id="tr" text="number" class="form-input" required />
+
+              <span class="span-box">Fuel Cost</span>
+            </label>
+          </div>
+
+          <div>
+            <button class="bg-sblue rounded p-2 ml-[100px] text-white">
+              Calculate
+            </button>
+          </div>
+
+        </form>
       </div>
     </div>
   </body>
